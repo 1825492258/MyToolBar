@@ -27,6 +27,7 @@ public class FiveActivity extends AppCompatActivity {
     CollapsingToolbarLayout collapsingToolbarLayout;
     @BindView(R.id.backdrop)
     RelativeLayout relativeLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

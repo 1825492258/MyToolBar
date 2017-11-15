@@ -7,7 +7,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
@@ -20,9 +19,9 @@ import jp.wasabeef.glide.transformations.CropCircleTransformation;
 
 public class FourActivity extends AppCompatActivity {
     @BindView(R.id.rl_four)
-    RelativeLayout rlFour;
+    RelativeLayout rlFour; // 一个相对布局
     @BindView(R.id.img_four)
-    ImageView imgFour;
+    ImageView imgFour; // 展示图片 使图片为圆形图片
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

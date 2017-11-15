@@ -14,6 +14,7 @@ import butterknife.ButterKnife;
 public class OneActivity extends AppCompatActivity {
     @BindView(R.id.toolbar)
     Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

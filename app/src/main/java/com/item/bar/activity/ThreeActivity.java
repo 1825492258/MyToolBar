@@ -69,14 +69,14 @@ public class ThreeActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main,menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         String msg = "";
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.webview:
                 msg += "11111";
                 break;
@@ -87,8 +87,8 @@ public class ThreeActivity extends AppCompatActivity {
                 msg += "33333";
                 break;
         }
-        if(!msg.equals("")){
-            Toast.makeText(ThreeActivity.this,msg,Toast.LENGTH_SHORT).show();
+        if (!msg.equals("")) {
+            Toast.makeText(ThreeActivity.this, msg, Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }
