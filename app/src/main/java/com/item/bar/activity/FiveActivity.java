@@ -18,7 +18,7 @@ import com.item.bar.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import jp.wasabeef.glide.transformations.BlurTransformation;
-
+// 这是什么
 public class FiveActivity extends AppCompatActivity {
 
     @BindView(R.id.toolbar)
