@@ -41,4 +41,12 @@
         android:text="5"
         android:id="@+id/btn_main_five"
         android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_main_six"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_main_text"
+        android:layout_height="wrap_content" />
 </LinearLayout>

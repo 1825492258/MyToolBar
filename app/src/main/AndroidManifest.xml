@@ -20,7 +20,9 @@
         <activity android:name=".activity.TwoActivity" />
         <activity android:name=".activity.ThreeActivity" />
         <activity android:name=".activity.FourActivity" />
-        <activity android:name=".activity.FiveActivity"></activity>
+        <activity android:name=".activity.FiveActivity" />
+        <activity android:name=".layout.ScrollingActivity" />
+        <activity android:name=".activity.TestBaseRecyclerActivity"></activity>
     </application>
 
 </manifest>
